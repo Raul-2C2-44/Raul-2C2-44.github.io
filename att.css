@@ -1,0 +1,127 @@
+body {
+    display: flex;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 20;
+    font-style: normal;
+    background-color: black;
+
+}
+
+#head {
+    text-align: left;
+    background-color: rgb(0, 0, 0);
+    width: 12%;
+    height: 100vh;
+    position: sticky;
+    position: fixed;
+    
+}
+
+#head ul {
+    color: antiquewhite;
+    list-style: none;
+    
+}
+
+#head a {
+    color: antiquewhite;
+}
+
+#bckg {
+    padding-left: 12%;
+    width: 88%;
+    height: 100vh;
+    background-image: url(img_9.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+#bckg ul{
+    padding-top: 45ch;
+    display: block;
+    color: antiquewhite;
+    list-style: none;
+    align-items: center;
+    padding-bottom: 41.1ch;
+}
+
+#l1 {
+    font-size: 40px;
+}
+
+#l2 {
+    height: 70px;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+#buton {
+    background-color: deeppink;
+    width: 120px;
+    height: 50px;
+    border-radius: 40px;
+    color: azure;
+    text-decoration: wavy;
+    border: none;
+    justify-content: space-between;
+}
+#im{
+    display: flex;
+    align-items: self-end;
+}
+#ig{
+    width: 57.65vh;
+    height: 29vh;
+    object-fit: cover;
+    transition: 0.5s;
+}
+#ig:hover {
+    opacity: 60%;
+}
+
+#lupa{
+    align-items: center;
+    width: 10px;
+    height: 10px;
+}
+#wit{
+    color: aliceblue;
+}
+#ele{
+    width: 35ch;
+    height: 50ch;
+    object-fit: cover;
+    text-align: left;
+}
+#mn{
+    padding-top: 10ch;
+    color: aliceblue;
+    font-size: 7ch;
+}
+#ps{
+    width: 20ch;
+    height: 20ch;
+    border-radius: 1000px;
+}
+#tb{
+    text-align: left;
+    background-color: grey;
+    color: aliceblue;
+}
+#vr{
+    list-style:circle;
+}
+#fgr{
+    text-align: left;
+    padding-left: 12cm;
+}
+
+
+
